@@ -45,6 +45,7 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         movie = (Movie) intent.getSerializableExtra("movie");
         Random rand = new Random();
+        // Escolhe backdrops aleatoriamente entre as 2 disponíveis
         int randomNum = rand.nextInt(2);
         Picasso.get().load(movie.getBackdropsUrl().get(randomNum)).into(imageViewMoviePoster);
         textViewMovieName.setText(movie.getTitle());
