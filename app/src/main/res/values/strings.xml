@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cine SKY</string>
+    <string name="error_msg">Desculpe! Não foi possível carregar os filmes.</string>
+    <string name="btn_retry">Tentar Novamente</string>
+    <string name="error_msg_no_internet">Sem conexão com a internet</string>
+    <string name="error_msg_timeout">O servidor está demorando muito...</string>
+    <string name="error_msg_unknown">Um erro inexperado aconteceu</string>
+    <string name="tap_to_reload">Click para recarregar</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="recycler_movie_image">recycler_movie_image</string>
+    <string name="title_activity_detail_scroll">DetailScrollActivity</string>
+
+    <string name="action_settings">Configuração</string>
+    <string name="action_search">Busca</string>
+
+
+</resources>
